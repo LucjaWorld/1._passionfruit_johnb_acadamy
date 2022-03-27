@@ -17,7 +17,7 @@ body {
         display: block;
         font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 3.5rem;
+        letter-spacing: 1.8rem;
     
         animation-name: moveInLeft;
         animation-duration: 1s;
@@ -54,7 +54,7 @@ body {
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color: transparent;
-    letter-spacing: .4rem;
+    letter-spacing: .2rem;
     transition: all .2s;
 
     @include respond(tab-port) {
